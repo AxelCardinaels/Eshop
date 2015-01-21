@@ -1,0 +1,24 @@
+.home__list{
+  font-size:20px;
+   margin-left:60px;
+
+
+  a{
+    color:$grisFonce;
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+
+    &:hover{
+      text-decoration: underline;
+    }
+
+    &:visited{
+      color:black;
+    }
+  }
+}
+
+.home__item{
+  margin-left:40px;
+}

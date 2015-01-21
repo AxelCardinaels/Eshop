@@ -1,0 +1,44 @@
+.checkout{
+  width:900px;
+  margin-bottom:150px;
+}
+
+.cvv__infos{
+  width:200px;
+  padding:20px;
+  font-weight:14px;
+  background:white;
+  position:absolute;
+  border:1px $grisClair solid;
+  opacity:0;
+  visibility: hidden;
+  @include transition_css(opacity, 0.4s, ease-in-out, 0s);
+  text-align:left;
+
+  img{
+    width:100%;
+  }
+}
+
+
+
+.cvv__question{
+  background: $grisFonce;
+  color:white;
+  border-radius: 100%;
+  font-size:10px;
+  font-weight:600;
+  padding:3px 5px 3px 6px;
+  margin-left:6px;
+  position:relative;
+  top:-2px;
+
+}
+
+.cvv__label:hover ~ .cvv__infos{
+  visibility: visible;
+  opacity:1;
+
+}
+
+

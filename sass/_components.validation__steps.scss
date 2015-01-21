@@ -1,0 +1,46 @@
+.validation__steps{
+  text-align: center;
+  margin-bottom: 120px;
+  margin-top:100px;
+  line-height: 1;
+}
+
+.validation__steps::after{
+  background-color: black;
+  width:50%;
+  display:inline-block;
+  height:2px;
+  content:"qshklq";
+  text-indent:-9999px;
+  position:relative;
+  bottom:56px;
+
+}
+
+.step{
+  display: inline-block;
+  background:white;
+  position:relative;
+  z-index:3;
+  margin:0px 100px;
+}
+
+
+
+.step__order{
+  border:1px solid black;
+  font-size:30px;
+  font-weight: 100;
+  width:38px;
+  height:38px;
+  border-radius: 100%;
+  text-align: center;
+  margin:0px auto 20px;
+
+}
+
+.step--current{
+  background:black;
+  color:white;
+}
+

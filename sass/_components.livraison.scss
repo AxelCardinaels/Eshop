@@ -1,0 +1,64 @@
+.livraison__infos{
+  width:900px;
+
+
+
+}
+
+.card__infos{
+  width:360px;
+}
+
+.card__infos, .livraison__infos, .contact{
+
+  label{
+    display:block;
+    text-align:left;
+  }
+
+}
+
+.input--small{
+  width:90px;
+}
+
+.input--large{
+  width:360px;
+}
+
+.input--middle{
+  width:225px;
+}
+
+.input--extralarge{
+  width:100%;
+}
+
+.input--large, .input--middle, .input--extralarge, .input--small{
+  border:1px solid $grisClair;
+}
+
+
+.marged{
+  margin:0px 45px;
+}
+
+
+.select--down{
+  position:relative;
+  top:27px;
+}
+
+
+.livraison__infos, .card__infos, .login, .login--without, .contact{
+  margin-top:100px;
+  margin-bottom:150px;
+
+  label{
+    margin-bottom:10px;
+  }
+
+  input[type="text"], input[type="password"], textarea{
+    padding:5px 0px 5px 10px;
+  }
+}

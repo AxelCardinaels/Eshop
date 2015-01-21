@@ -1,0 +1,1 @@
+!function($){"use strict";var o,e,n,a=function(){o=new google.maps.Map(e[0],{center:n,disableDefaultUI:!0,mapTypeId:google.maps.MapTypeId.HYBRID,scrollwheel:!1,zoomControl:!0,zoom:16}),new google.maps.Marker({map:o,position:n}),p()},p=function(){},t=function(o){n=new google.maps.LatLng(50.6396068,5.5729017),a()};$(function(){e=$("#gmap")})}(jQuery);

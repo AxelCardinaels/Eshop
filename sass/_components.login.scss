@@ -1,0 +1,23 @@
+.login{
+  width:1000px;
+  text-align: center;
+  margin:0px auto 0px;
+
+  form{
+    margin-bottom:60px;
+  }
+
+  input{
+    display:block;
+    width:340px;
+     margin:0px auto 30px;
+  }
+}
+
+.login__without, .login__account{
+  width:50%;
+}
+
+.login__account{
+  border-right:1px solid #CACACA;
+}

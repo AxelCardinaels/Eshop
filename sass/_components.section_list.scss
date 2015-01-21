@@ -1,0 +1,56 @@
+
+
+.sections__list{
+    margin-left:50px;
+  margin-top:60px;
+  position:fixed;
+
+  a{
+    color:$grisClair;
+    @include transition_css(all, 0.4s, ease-in-out,0s);
+
+    &:hover{
+      text-decoration: underline;
+      color:$grisFonce;
+    }
+  }
+
+
+  .panier{
+    color:$grisFonce;
+
+  }
+}
+
+.section--selected{
+  color:$grisFonce;
+  text-decoration: underline;
+}
+
+
+
+
+.section__title{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.section__articles{
+  font-size:16px;
+  margin-left:15px;
+  padding-bottom: 15px;
+  @include transition_css(all,0.8s,ease-in-out,0);
+
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+
+
+
+.section__panier{
+  padding-top:50px;
+  padding-bottom: 0px;
+}

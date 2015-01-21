@@ -1,0 +1,57 @@
+.infos__entretien{
+  width:550px;
+  border-spacing:20px 0px;
+  margin-left:-20px;
+  margin-top:70px;
+
+}
+
+
+
+.entretien__item{
+  width:30px;
+  vertical-align: bottom;
+
+  display: table-cell;
+  position:relative;
+
+  &:hover .entretien__description{
+    visibility: visible;
+    opacity: 1;
+
+
+  }
+
+}
+
+.entretien__icon {
+  width: 100%;
+  top:0px;
+
+}
+
+.entretien__description{
+  background:black;
+  color:white;
+  width:150px;
+  text-align: center;
+  top:-60px;
+  left:-60px;
+  z-index:2;
+  font-size:16px;
+
+   position:absolute;
+  padding:10px;
+  visibility: hidden;
+  opacity:0;
+  @include transition_css(all,0.3s,ease-in-out,0s);
+
+}
+
+.product__item {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+

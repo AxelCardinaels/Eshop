@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Woo4Men - Articles pour hommes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/screen.css">
+
+    <script type="text/javascript" src="../js/vendor/jquery-1.11.1.min.js"></script>
+
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:600,100,400,200,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    <header>
+        <h1><a href="../index.html" title="Accueil du site Woo4Men">Woo4Men</a></h1>
+    </header>
+
+    <div class="wrapper--centered">
+
+        <div class="validation__steps">
+            <ul>
+                <li class="step">
+                    <p class="step__order  ">1</p>
+                    <p class="step__name">Identification</p>
+                </li>
+                <li class="step ">
+                    <p class="step__order step--current">2</p>
+                    <p class="step__name">Adresse</p>
+                </li>
+                <li class="step ">
+                    <p class="step__order">3</p>
+                    <p class="step__name">Payement</p>
+                </li>
+                <li class="step ">
+                    <p class="step__order">4</p>
+                    <p class="step__name">Confirmation</p>
+                </li>
+            </ul>
+        </div>
+
+        <h2 class="steps__title title--centered">
+            Informations de livraisons pour <span class="panier__view">votre panier</span>
+        </h2>
+
+        <div  class="livraison__infos wrapper--centered">
+
+            <form action="step3.html" class="infos__select">
+                <div class="clearfix push__down__big">
+                    <div class="float--left">
+
+                        <label for="name">Nom</label>
+                        <input name="name" id="name" type="text" class="input--large"/>
+
+                    </div>
+                    <div class="float--left marged">
+                        <label for="surname">Prénom</label>
+                        <input name="surname" id="surname" type="text" class="input--middle "/>
+                    </div>
+                    <div class="float--left">
+                        <label for="telephone">Téléphone</label>
+                        <input name="telephone" id="telephone" type="text" class="input--middle"/>
+                    </div>
+                </div>
+
+
+                <div class="push__down__big">
+
+                    <label for="rue">Rue</label>
+                    <input name="rue" id="rue" type="text" class="input--extralarge"/>
+
+
+                </div>
+                <div class="clearfix push__down__big ">
+                    <div class=" input--large  float--left bouton--small bouton--unselected select--down">
+                        <select class="">
+                            <option selected disabled>
+                                Choisissez votre Pays
+                            </option>
+                            <option>
+                                Belgique
+                            </option>
+                            <option>
+                                France
+                            </option>
+                        </select>
+                    </div>
+                    <div class="float--left marged">
+                        <label for="ville">Ville</label>
+                        <input name="ville" id="ville" type="text" class="input--middle"/>
+                    </div>
+                    <div class="float--left">
+                        <label for="postal">Code postal</label>
+                        <input name="postal" id="postal" type="text" class="input--middle"/>
+                    </div>
+                </div>
+
+
+
+                <input type="submit" class="bouton--selected bouton--small" value="Valider les informations"/>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>
+

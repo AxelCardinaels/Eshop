@@ -1,0 +1,28 @@
+.title--centered{
+  text-align: center;
+}
+
+.item__title{
+  font-size:16px;
+  color:$grisFonce;
+}
+
+.infos__name, .panier__titre, .item__name, .steps__title, .item__name--small{
+  font-weight: 100;
+  color:$grisFonce;
+}
+
+.item__name--small{
+  font-size:20px;
+}
+
+.infos__name, .panier__titre, .item__name, .steps__title{
+  font-size:30px;
+}
+
+
+.shops__name{
+  font-size: 18px;
+  font-weight: 200;
+  display:inline-block;
+}

@@ -1,0 +1,95 @@
+.infos__category{
+  color:$grisClair;
+  font-size:20px;
+  font-weight: 200;
+}
+
+.infos__price{
+  font-size:30px;
+  font-weight: 100;
+}
+
+
+p[id="infos__taille"] , p[id="infos__livraison"], p[id="infos__details"]{
+  width:550px;
+   display:none;
+}
+
+.infos__select{
+  display: inline;
+  text-align: center;
+  select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border:none;
+
+  }
+
+}
+
+p[id="infos__details"]:target , p[id="infos__taille"]:target , p[id="infos__livraison"]:target{
+  display:block;
+  -webkit-animation: text-fade-in 1.2s; /* Chrome, Safari, Opera */
+  animation: text-fade-in 1.2s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+.text_animation{
+  -webkit-animation: text-fade-in 1.2s; /* Chrome, Safari, Opera */
+  animation: text-fade-in 1.2s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes text-fade-in {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes text-fade-in {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+.product__infos{
+  margin-left:820px;
+  margin-top:100px;
+  float:left;
+  position:fixed;
+  padding-bottom:200px;
+}
+
+.infos__details{
+
+  .bouton--large, .bouton--small{
+    margin-left:20px;
+
+    &:first-child{
+      margin:0px;
+    }
+
+  }
+
+
+}
+
+.infos__validation{
+  margin-top:80px;
+}
+
+
+
+
+
+
+
