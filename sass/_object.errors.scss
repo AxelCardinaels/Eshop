@@ -1,0 +1,47 @@
+.errors__message{
+	color:red;
+	display: none;
+	
+}
+
+.errors__message--up{
+	position: absolute;
+	top:-40px;
+	left:20px;
+
+}
+
+.errors__message--marged{
+	position: relative;
+	top:-10px;
+}
+
+.errors__div{
+	background:white;
+	position:relative;
+	text-align: center;
+	width:30%;
+	border:1px solid $grisFonce;
+	position: absolute;
+	z-index: 3;
+	left:35%;
+	top:60%;
+	padding:25px;
+	box-shadow: 1px 3px 7px rgba(1,1,1,0.5);
+	display:none;
+}
+
+.errors__title{
+	margin-bottom:30px;
+}
+
+.errors__close{
+	font-size: 0.9em;
+	margin-top:20px;
+	display: block;
+	text-decoration: underline;
+
+	&:hover{
+		cursor: pointer;
+	}
+}

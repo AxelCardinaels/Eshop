@@ -25,7 +25,12 @@
     </header>
 
     <div class="wrapper--centered">
+        <div class="errors__div">
+            <h2 class="errors__title">Une erreur s'est produite</h2>
+            <p>Merci de remplir tous les champs.</p>
+            <p class="errors__close">Fermer cette fenetre</a>
 
+        </div>
         <div class="validation__steps">
             <ul>
                 <li class="step">
@@ -54,7 +59,7 @@
         <div class="checkout wrapper--centered clearfix">
             <div  class="card__infos float--left">
 
-                <form action="step4.html" class="infos__select">
+                <form action="" class="infos__select" id="formcard">
                     <div class="push__down__big">
                         <label for="name-card">Nom sur la carte</label>
                         <input name="name-card" id="name-card" type="text" class="input--large"/>
@@ -84,7 +89,7 @@
                         </div>
                         <input name="cvv-card" id="cvv-card" type="text" class="input--small"/>
                     </div>
-                    <input type="submit" class="bouton--selected bouton--small" value="Valider les informations"/>
+                    <input type="button" class="bouton--selected bouton--small card__bouton" value="Valider les informations"/>
                 </form>
             </div>
 

@@ -1,57 +1,3 @@
-/**
- * CONTENTS
- *
- * SETTINGS
- *
- *
- * GENERIC
- *
- * BASE
- * Page.................Page-level styles (HTML element).
- * Page.................Our extension of the inuitcss page module.
- * Headings.............Heading styles
- * Type.................Misc type styles
- * Links................Hyperlink styles
- * Lists................inuitcss list styles
- * Images...............inuitcss images
- * Quotes...............Styling for blockquotes, etc.
- *
- * OBJECTS
- * Wrappers.............Wrappers and page constraints.
- * Buttons..............inuitcss’ buttons module.
- * Layout...............inuitcss’ layout tool.
- * Box..................inuitcss’ box object.
- * Media................The media object.
- * Flag.................The flag object.
- * UI list..............inuitcss’ UI list.
- *
- * COMPONENTS
- * Page-head............Page header styles.
- * Bands................Full-width page bands.
- * Promo................Lead promo blocks on the home page.
- * Page-foot............Page footer styles.
- * Page-micro...........Page copyright styles.
- * Site-nav.............Site’s main nav area.
- * Buttons..............Extension of inuitcss’ buttons.
- * Boxes................Extension of inuitcss’ box object
- * Post.................Post-specific styles.
- * Pull-quote...........Large, featured quotes.
- * Carousel.............Pure CSS carousel component.
- * Iconic...............Iconic icon styles.
- * Sprites..............Image sprite styles.
- * Feature list.........Big blocky lists of feature items.
- * Annotate.............Pure CSS figure annotations.
- * Ads..................AdPacks overrides.
- *
- * TRUMPS
- * Clearfix.............I can’t believe we still need this in 2014.
- * Widths...............Simple width helper classes.
- * Widths-responsive....Polyfill for responsive width classes.
- * Spacing..............Micro-level spacing.
- * Show/hide............Helpers to show and side stuff.
- */
-
-
 
 @import "compass/reset";
 
@@ -111,7 +57,7 @@
 @import "object.header";
 @import "object.wrapper";
 @import "object.float";
-
+@import "object.errors";
 
 
 

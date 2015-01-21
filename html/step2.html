@@ -25,7 +25,12 @@
     </header>
 
     <div class="wrapper--centered">
+        <div class="errors__div">
+            <h2 class="errors__title">Une erreur s'est produite</h2>
+            <p>Merci de remplir tous les champs.</p>
+            <p class="errors__close">Fermer cette fenetre</a>
 
+        </div>
         <div class="validation__steps">
             <ul>
                 <li class="step">
@@ -48,12 +53,12 @@
         </div>
 
         <h2 class="steps__title title--centered">
-            Informations de livraisons pour <span class="panier__view">votre panier</span>
+            Informations de livraisons pour votre panier
         </h2>
 
         <div  class="livraison__infos wrapper--centered">
 
-            <form action="step3.html" class="infos__select">
+            <form action="" class="infos__select" id="formuser">
                 <div class="clearfix push__down__big">
                     <div class="float--left">
 
@@ -105,7 +110,7 @@
 
 
 
-                <input type="submit" class="bouton--selected bouton--small validation__infos" value="Valider les informations"/>
+                <input type="button" class="bouton--selected bouton--small validation__infos" value="Valider les informations"/>
             </form>
         </div>
     </div>
