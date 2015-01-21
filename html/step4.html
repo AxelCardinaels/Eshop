@@ -54,20 +54,20 @@
         <div class="checkout wrapper--centered clearfix">
             <div  class="recap__infos float--left">
                 <h2 class="panier__titre push__down__middle">Vos informations d'envoie</h2>
-                <p class="push__down__middle">Axel Cardinaels</p>
-                <p>Rue des Anciens Combattants N°22</p>
-                <p class="push__down__middle">4683 Vivegnis</p>
+                <p class="push__down__middle user__name"></p>
+                <p class="user__rue"></p>
+                <p class="push__down__middle user__ville"></p>
                 <p class="push__down__big">Payé par carte Visa</p>
 
-                <a class="bouton--small bouton--selected" href="homme.html" title="Retour aux articles">Retour au site</a>
+                <a class="bouton--small bouton--selected back__site" href="homme.html" title="Retour aux articles">Retour au site</a>
 
 
             </div>
 
             <div class="panier--inner panier--small float--left clearfix">
                 <h2 class="panier__titre">Récapitulatif de votre panier</h2>
-
-                <ul class="panier__list clearfix push__down__middle">
+                
+                <ul class="panier__list clearfix push__down__middle need__all">
                     <li class="panier__item">
                         <a href="produit.html">
                             <article class="clearfix">
@@ -76,39 +76,21 @@
                                 </div>
                                 <div class="item__infos--small float--left">
                                     <div class="float--left">
-                                        <h2 class="item__name--small">Panther</h2>
-                                        <p class="item__category--small push__down__middle">Chemise pour homme</p>
-                                        <p class="item__price--small push__down__middle">150€</p>
-                                        <p>taille S</p>
-                                        <p>Référence 24752</p>
+                                        <h2 class="item__name--small"></h2>
+                                        <p class="item__category--small push__down__middle"></p>
+                                        <p class="item__price--small push__down__middle"></p>
+                                        <p>taille : <span class="item__size"></span></p>
+                                        <p>Quantité : <span class="panier__nombre"></span></p>
                                     </div>
                                 </div>
                             </article>
                         </a>
                     </li>
 
-                    <li class="panier__item">
-                        <a href="produit.html">
-                            <article class="clearfix">
-                                <div class="item__thumbnail--small float--left">
-                                    <img src="../img/small/chemises/chemise4.png" alt="Chemise homme tel nom"/>
-                                </div>
-                                <div class="item__infos--small float--left">
-                                    <div class="float--left">
-                                        <h2 class="item__name--small">Panther</h2>
-                                        <p class="item__category--small push__down__middle">Chemise pour homme</p>
-                                        <p class="item__price--small push__down__middle">150€</p>
-                                        <p>taille S</p>
-                                        <p>Référence 24752</p>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
                 </ul>
 
 
-                <p class="float--left">Total : 300€</p>
+                <p class="float--left">Total : <span class="panier__total"></span></p>
 
             </div>
         </div>
@@ -121,5 +103,6 @@
 </body>
 
 
+<script type="text/javascript" src="../js/localstorage.js"></script>
 </html>
 
