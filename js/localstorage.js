@@ -75,7 +75,7 @@ function addPanier(){
     var nom = document.querySelector('.infos__name').innerHTML;
     var type = document.querySelector('.infos__category').innerHTML;
     var taille = document.querySelector('.infos__size').value;
-    var prix = document.querySelector('.infos__price').innerHTML;
+    var prix = document.querySelector('.price--sale').innerHTML;
     var img = "../img/large/chemises/chemise1a.png";
     var nombre = Number(document.querySelector('.panier__nombre').innerHTML)+ 1;
 

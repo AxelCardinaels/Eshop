@@ -821,6 +821,15 @@ header {
 .product__item--left {
   float: left; }
 
+/* line 60, ../sass/_components.product__list.scss */
+.price--bare {
+  text-decoration: line-through;
+  margin-right: 10px; }
+
+/* line 66, ../sass/_components.product__list.scss */
+.price--sale {
+  color: red; }
+
 /* line 1, ../sass/_components.productPicture__list.scss */
 .productpicture__list {
   width: 300px;
