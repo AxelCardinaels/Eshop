@@ -11,6 +11,14 @@
     var tableStorage = new Array();
     var addPanier;
 
+    if( document.querySelector(".panier")){
+        if(localStorage.getItem('nom') == null){
+            hidePanier();
+        }
+    }
+
+     
+
     if(document.querySelector(".validation__infos")){
         var registerBouton = document.querySelector(".validation__infos");
         registerBouton.addEventListener("click",saveUser,false);
@@ -34,6 +42,10 @@
     if(document.querySelector(".need__infos")){
         setInfos();
     }
+
+   
+
+
 
 
     setPanierNombre();
@@ -134,6 +146,13 @@ function setUser(){
 
 function clear(){
     window.localStorage.clear();
+}
+
+function hidePanier(){
+    console.log( document.querySelector(".panier"))
+    document.querySelector(".panier__checkout").style.display = "none";
+    document.querySelector(".panier__list").style.display = "none";
+    document.querySelector(".panier__empty").style.display = "block";
 }
    
 
