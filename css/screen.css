@@ -557,6 +557,12 @@ h2 {
 h3 {
   font-size: 25px; }
 
+@media all and (min-width: 1px) and (max-width: 800px) {
+  /* line 18, ../sass/_base.headings.scss */
+  h1.home__title {
+    float: none;
+    text-align: center;
+    width: 100%; } }
 /**
  * #OBJECTS
  */
@@ -587,6 +593,24 @@ header {
 .wrapper--centered {
   margin: 0px auto; }
 
+/* line 5, ../sass/_object.wrapper.scss */
+.home {
+  width: 95%;
+  height: 100%; }
+  /* line 10, ../sass/_object.wrapper.scss */
+  .home img {
+    width: 100%;
+    margin-top: 2.1875em;
+    /*35/16*/ }
+
+@media all and (min-width: 1px) and (max-width: 800px) {
+  /* line 20, ../sass/_object.wrapper.scss */
+  .home {
+    width: 100%;
+    overflow: hidden; }
+    /* line 25, ../sass/_object.wrapper.scss */
+    .home img {
+      margin-top: 0px; } }
 /* line 1, ../sass/_object.float.scss */
 .float--left {
   float: left; }
@@ -691,19 +715,11 @@ header {
   font-weight: 200;
   display: inline-block; }
 
-/* line 1, ../sass/_components.body.scss */
-.home {
-  width: 95%;
-  height: 100%; }
-  /* line 6, ../sass/_components.body.scss */
-  .home img {
-    width: 100%;
-    margin-top: 35px; }
-
 /* line 1, ../sass/_components.home__list.scss */
 .home__list {
   font-size: 20px;
-  margin-left: 60px; }
+  margin-left: 3.859398496241%;
+  /*60/1596*/ }
   /* line 6, ../sass/_components.home__list.scss */
   .home__list a {
     color: #444444;
@@ -719,8 +735,23 @@ header {
 
 /* line 22, ../sass/_components.home__list.scss */
 .home__item {
-  margin-left: 40px; }
+  margin-left: 2em;
+  /*40/20*/ }
+  /* line 25, ../sass/_components.home__list.scss */
+  .home__item:first-child {
+    margin-left: 0px; }
 
+@media all and (min-width: 1px) and (max-width: 800px) {
+  /* line 33, ../sass/_components.home__list.scss */
+  ul.home__list {
+    text-align: center;
+    width: 100%; } }
+@media all and (min-width: 1px) and (max-width: 600px) {
+  /* line 43, ../sass/_components.home__list.scss */
+  li.home__item {
+    display: block;
+    text-align: center;
+    margin: 20px 0px; } }
 /* line 3, ../sass/_components.section_list.scss */
 .sections__list {
   margin-left: 50px;

@@ -1,3 +1,30 @@
 .wrapper--centered{
   margin:0px auto;
 }
+
+.home{
+  width:95%;
+  height:100%;
+
+
+  img{
+    width:100%;
+    margin-top:2.1875em; /*35/16*/
+  }
+}
+
+
+
+@media all and (min-width:1px) and (max-width:800px){
+   
+	.home{
+ 	 width:100%;
+ 	 overflow: hidden;
+
+
+  	img{
+    	margin-top:0px;
+  	}
+}
+
+}

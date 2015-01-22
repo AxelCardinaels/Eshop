@@ -13,3 +13,12 @@ h3{
   font-size: 25px;
 }
 
+@media all and (min-width:1px) and (max-width:800px){
+   
+	h1.home__title{
+		float:none;
+		text-align: center;
+		width:100%;
+	}
+
+}

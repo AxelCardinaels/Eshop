@@ -1,6 +1,6 @@
 .home__list{
   font-size:20px;
-   margin-left:60px;
+   margin-left:3.859398496241%; /*60/1596*/
 
 
   a{
@@ -20,5 +20,32 @@
 }
 
 .home__item{
-  margin-left:40px;
+  margin-left:2em; /*40/20*/
+
+  &:first-child{
+    margin-left:0px;
+  }
+}
+
+
+@media all and (min-width:1px) and (max-width:800px){
+   
+  ul.home__list{
+    text-align: center;
+    width:100%;
+  }
+
+}
+
+
+@media all and (min-width:1px) and (max-width:600px){
+   
+   li.home__item{
+    display: block;
+    text-align: center;
+    margin:20px 0px;
+
+   }
+  
+
 }
