@@ -1070,90 +1070,121 @@ p[id="infos__details"]:target, p[id="infos__taille"]:target, p[id="infos__livrai
   /* line 129, ../sass/_components.product__infos.scss */
   .infos__size {
     font-size: 0.8em; } }
-/* line 1, ../sass/_components.panier.scss */
+/* line 2, ../sass/_components.panier.scss */
 .panier {
   width: 70%;
-  margin-left: 280px;
-  margin-top: 100px; }
+  margin-left: 16.666666666667%;
+  /*280/1680*/
+  margin-top: 5.88235294117647em;
+  /*100/17*/ }
 
-/* line 7, ../sass/_components.panier.scss */
+/* line 8, ../sass/_components.panier.scss */
 .panier--small {
   width: 390px; }
 
-/* line 11, ../sass/_components.panier.scss */
+/* line 12, ../sass/_components.panier.scss */
 .item__thumbnail {
-  width: 200px; }
-  /* line 14, ../sass/_components.panier.scss */
+  width: 17.021276595745%;
+  /*200/1175*/ }
+  /* line 15, ../sass/_components.panier.scss */
   .item__thumbnail img {
     width: 100%; }
 
-/* line 19, ../sass/_components.panier.scss */
+/* line 21, ../sass/_components.panier.scss */
 .item__thumbnail--small {
   width: 120px; }
-  /* line 21, ../sass/_components.panier.scss */
+  /* line 23, ../sass/_components.panier.scss */
   .item__thumbnail--small img {
     width: 100%; }
 
-/* line 26, ../sass/_components.panier.scss */
+/* line 29, ../sass/_components.panier.scss */
 .item__category {
-  font-size: 20px; }
+  font-size: 1.17647058823529em;
+  /*20/17*/ }
 
-/* line 30, ../sass/_components.panier.scss */
+/* line 33, ../sass/_components.panier.scss */
 .item__category--small {
-  font-size: 18px; }
+  font-size: 1.05882352941176em;
+  /*18/17*/ }
 
-/* line 34, ../sass/_components.panier.scss */
+/* line 37, ../sass/_components.panier.scss */
 .item__category, .item__category--small {
   color: #999999; }
 
-/* line 38, ../sass/_components.panier.scss */
+/* line 41, ../sass/_components.panier.scss */
 .panier__item {
   border-bottom: 1px solid #CACACA;
   padding: 60px 0px; }
 
-/* line 43, ../sass/_components.panier.scss */
+/* line 47, ../sass/_components.panier.scss */
 .item__infos {
   width: 80%;
-  margin-top: 30px;
-  margin-left: 30px; }
+  margin-top: 1.76470588235294em;
+  /*30/17*/
+  margin-left: 2.553191489362%;
+  /*30/1175*/ }
 
-/* line 49, ../sass/_components.panier.scss */
+/* line 53, ../sass/_components.panier.scss */
 .item__infos--small {
   width: 50%;
   margin-top: 10px;
   margin-left: 15px; }
 
-/* line 56, ../sass/_components.panier.scss */
+/* line 62, ../sass/_components.panier.scss */
 .item__price {
-  font-size: 25px; }
+  font-size: 1.47058823529412em;
+  /*25/17*/ }
 
-/* line 60, ../sass/_components.panier.scss */
+/* line 66, ../sass/_components.panier.scss */
 .item__price--small {
-  font-size: 20px; }
+  font-size: 1.17647058823529em; }
 
-/* line 64, ../sass/_components.panier.scss */
+/* line 70, ../sass/_components.panier.scss */
 .item__price, .item__price--small {
   font-weight: 100; }
 
-/* line 70, ../sass/_components.panier.scss */
+/* line 76, ../sass/_components.panier.scss */
 .panier__view {
   text-decoration: underline; }
 
-/* line 74, ../sass/_components.panier.scss */
+/* line 80, ../sass/_components.panier.scss */
 .panier--inner {
   margin-left: 150px;
   margin-top: 100px; }
 
-/* line 80, ../sass/_components.panier.scss */
+/* line 86, ../sass/_components.panier.scss */
 .panier__checkout {
   margin: 80px 0px 200px; }
 
-/* line 84, ../sass/_components.panier.scss */
+/* line 90, ../sass/_components.panier.scss */
 .panier__empty {
-  margin-top: 30px;
+  margin-top: 1.76470588235294em;
+  /*30/17*/
   font-size: 1.1em;
   display: none; }
 
+@media all and (min-width: 1px) and (max-width: 800px) {
+  /* line 101, ../sass/_components.panier.scss */
+  .item__thumbnail {
+    width: 40%;
+    /*200/1175*/ }
+
+  /* line 106, ../sass/_components.panier.scss */
+  .item__price {
+    float: none;
+    margin: 0px; }
+
+  /* line 111, ../sass/_components.panier.scss */
+  .panier__total {
+    margin-bottom: 2em; }
+
+  /* line 115, ../sass/_components.panier.scss */
+  .panier__checkout {
+    margin: 1em auto; }
+
+  /* line 119, ../sass/_components.panier.scss */
+  .panier {
+    margin-bottom: 5em; } }
 /* line 1, ../sass/_components.validation__steps.scss */
 .validation__steps {
   text-align: center;
