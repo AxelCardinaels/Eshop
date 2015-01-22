@@ -1,15 +1,15 @@
 .infos__entretien{
-  width:550px;
-  border-spacing:20px 0px;
+  width:32.738095238095%; /*550/1680*/
+  border-spacing:1.17647058823529em 0px; /*20/17*/
   margin-left:-20px;
-  margin-top:70px;
+  margin-top:4.11764705882353em; /*70/17*/
 
 }
 
 
 
 .entretien__item{
-  width:30px;
+  width:5.454545454545%; /*30/550*/
   vertical-align: bottom;
 
   display: table-cell;
@@ -33,20 +33,56 @@
 .entretien__description{
   background:black;
   color:white;
-  width:150px;
+  width:500%; /*150/30*/
   text-align: center;
-  top:-60px;
-  left:-60px;
+  top:-3.75em; /*60/16*/
+  left:-200%; /*60/30*/
   z-index:2;
-  font-size:16px;
-
-   position:absolute;
-  padding:10px;
+  font-size:0.94117647058824em; /*16/17*/
+  position:absolute;
+  padding:0.58823529411765em; /*10*/
   visibility: hidden;
   opacity:0;
   @include transition_css(all,0.3s,ease-in-out,0s);
 
 }
 
+@media all and (min-width:801px) and (max-width:1150px){
+
+  .infos__entretien{
+
+    width:60%;
+    margin:2em auto;
+    float:none;
+  }
+
+  .entretien__item{
+    width:12%;
+    display: inline-block;
+    margin-left:1em;
+  }
+
+}
+
+
+
+
+
+@media all and (min-width:1px) and (max-width:800px){
+
+  .infos__entretien{
+
+    width:80%;
+    margin:2em auto;
+    float:none;
+  }
+
+  .entretien__item{
+    width:15%;
+    display: inline-block;
+    margin-left:1em;
+  }
+
+}
 
 

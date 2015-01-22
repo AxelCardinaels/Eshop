@@ -1,12 +1,12 @@
 .productpicture__list{
-  width:300px;
+  width:17.857142857143%; /*300/1680*/
 
-  margin-left:400px;
-  margin-top:100Px;
+  margin-left:23.809523809524%; /*400/1680*/
+  margin-top:5.88235294117647em; /*100/17*/
   float:left;
 
   li{
-    margin-top:30px;
+    margin-top:1.76470588235294em; /*30/17*/
 
     &:first-child{
       margin-top:0px;
@@ -21,5 +21,17 @@
 
 .productpicture{
   width:100%;
+}
+
+
+@media all and (min-width:1px) and (max-width:800px){
+
+  ul.productpicture__list{
+
+    width:40%;
+    margin:4em auto;
+    float:none;
+  }
+
 }
 

@@ -1,5 +1,6 @@
 .bouton--unselected{
   border:1px solid $grisFonce;
+  background: white;
 
 }
 
@@ -10,12 +11,12 @@
 }
 
 .bouton--large{
-  font-size: 18px;
-  padding:10px 70px;
+  font-size: 1.05882352941176em; /*18/17*/
+  padding:0.55555555555556em 3.88888888888889em; /*10/18* 70/18*/
 }
 
 .bouton--small{
-  font-size: 16px;
-  padding:7px 30px;
+  font-size: 0.94117647058824em; /*16/17*/
+  padding:0.4375em 1.76470588235294em;
 }
 
