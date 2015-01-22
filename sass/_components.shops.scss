@@ -1,35 +1,35 @@
 .shops{
-  margin-top:150px;
-  width:1000px;
+  margin-top:8.82352941176471em; /*150/17*/
+  width:59.52380952381%; /*1000px*/
 }
 
 .googlemap{
   width:100%;
   background:silver;
-  height:500px;
-  margin:75px 0px 75px;
+  height:29.41176470588235em; /*500/17*/
+  margin:4.41176470588235em 0px ; /*75px*/
 }
 
 .shops__item{
-  width:250px;
-  margin-bottom:40px;
-  font-size:16px;
+  width:25%; /*250/1000*/
+  margin-bottom:2.5em; /*40/16*/
+  font-size:0.94117647058824em;
   position:relative;
 }
 
 .shops__item--pusher{
-  margin-left:115px;
-  margin-right:115px;
+  margin-left:11.5%; /*115/1000*/
+  margin-right:11.5%; /*115/1000*/
 
 }
 
 .centermap{
-  width:21px;
-  height:22px;
+  width:21; /*21/250*/
+  height:25px;
   display:inline-block;
   position:relative;
   top:4px;
-  margin-left:10px;
+  margin-left:0.8em;
   @include transition_css(all, 0.3s, ease-in-out,0s);
 
   &:hover{
@@ -61,3 +61,37 @@
 
   @include transition_css(all, 0.3s, ease-in-out,0s);
 }
+
+
+
+
+@media all and (min-width:451px) and (max-width:950px){
+   
+li.shops__item{
+  width:60%; /*250/1000*/
+  margin:0px auto;
+  float:none;
+  display: block;
+  margin-bottom:3em;
+
+}
+
+
+}
+
+
+
+@media all and (min-width:1px) and (max-width:450px){
+   
+li.shops__item{
+  width:100%; /*250/1000*/
+  margin:0px auto;
+  float:none;
+  display: block;
+  margin-bottom:3em;
+
+}
+
+
+}
+

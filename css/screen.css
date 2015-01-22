@@ -1395,36 +1395,45 @@ p[id="infos__details"]:target, p[id="infos__taille"]:target, p[id="infos__livrai
     margin-left: 1em; } }
 /* line 1, ../sass/_components.shops.scss */
 .shops {
-  margin-top: 150px;
-  width: 1000px; }
+  margin-top: 8.82352941176471em;
+  /*150/17*/
+  width: 59.52380952381%;
+  /*1000px*/ }
 
 /* line 6, ../sass/_components.shops.scss */
 .googlemap {
   width: 100%;
   background: silver;
-  height: 500px;
-  margin: 75px 0px 75px; }
+  height: 29.41176470588235em;
+  /*500/17*/
+  margin: 4.41176em 0px;
+  /*75px*/ }
 
 /* line 13, ../sass/_components.shops.scss */
 .shops__item {
-  width: 250px;
-  margin-bottom: 40px;
-  font-size: 16px;
+  width: 25%;
+  /*250/1000*/
+  margin-bottom: 2.5em;
+  /*40/16*/
+  font-size: 0.94117647058824em;
   position: relative; }
 
 /* line 20, ../sass/_components.shops.scss */
 .shops__item--pusher {
-  margin-left: 115px;
-  margin-right: 115px; }
+  margin-left: 11.5%;
+  /*115/1000*/
+  margin-right: 11.5%;
+  /*115/1000*/ }
 
 /* line 26, ../sass/_components.shops.scss */
 .centermap {
-  width: 21px;
-  height: 22px;
+  width: 21;
+  /*21/250*/
+  height: 25px;
   display: inline-block;
   position: relative;
   top: 4px;
-  margin-left: 10px;
+  margin-left: 0.8em;
   -moz-transition: all 0.3s ease-in-out 0s;
   -ms-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -1454,6 +1463,24 @@ p[id="infos__details"]:target, p[id="infos__taille"]:target, p[id="infos__livrai
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 
+@media all and (min-width: 451px) and (max-width: 950px) {
+  /* line 70, ../sass/_components.shops.scss */
+  li.shops__item {
+    width: 60%;
+    /*250/1000*/
+    margin: 0px auto;
+    float: none;
+    display: block;
+    margin-bottom: 3em; } }
+@media all and (min-width: 1px) and (max-width: 450px) {
+  /* line 86, ../sass/_components.shops.scss */
+  li.shops__item {
+    width: 100%;
+    /*250/1000*/
+    margin: 0px auto;
+    float: none;
+    display: block;
+    margin-bottom: 3em; } }
 /* line 1, ../sass/_components.recap__infos.scss */
 .recap__infos {
   margin-top: 100px; }
