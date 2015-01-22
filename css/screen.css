@@ -752,11 +752,15 @@ header {
     display: block;
     text-align: center;
     margin: 20px 0px; } }
-/* line 3, ../sass/_components.section_list.scss */
+/* line 1, ../sass/_components.section_list.scss */
 .sections__list {
-  margin-left: 50px;
-  margin-top: 60px;
-  position: fixed; }
+  margin-left: 2.97619047619%;
+  /*50/1680*/
+  margin-top: 3.52941176470588em;
+  /*50/17*/
+  position: fixed;
+  background: white;
+  z-index: 3; }
   /* line 8, ../sass/_components.section_list.scss */
   .sections__list a {
     color: #999999;
@@ -779,14 +783,17 @@ header {
 
 /* line 33, ../sass/_components.section_list.scss */
 .section__title {
-  font-size: 18px;
-  margin-bottom: 15px; }
+  font-size: 1.05882352941176em;
+  /*18px/17*/
+  margin-bottom: 0.83333333333333em;
+  /*15/18*/ }
 
 /* line 38, ../sass/_components.section_list.scss */
 .section__articles {
-  font-size: 16px;
-  margin-left: 15px;
-  padding-bottom: 15px;
+  font-size: 0.94117647058824em;
+  /*16/17*/
+  margin-left: 1em;
+  padding-bottom: 1em;
   -moz-transition: all 0.8s ease-in-out 0;
   -ms-transition: all 0.8s ease-in-out 0;
   -webkit-transition: all 0.8s ease-in-out 0;
@@ -797,25 +804,32 @@ header {
 
 /* line 53, ../sass/_components.section_list.scss */
 .section__panier {
-  padding-top: 50px;
+  padding-top: 2.77777777777778em;
+  /*50/18*/
   padding-bottom: 0px; }
 
 /* line 2, ../sass/_components.product__list.scss */
 .product__list {
   width: 85%;
-  margin-top: 100px;
-  margin-left: 130px; }
+  margin-top: 5.88235294117647em;
+  /*100/17*/
+  margin-left: 7.738095238095%;
+  /*130/1680*/ }
   /* line 7, ../sass/_components.product__list.scss */
   .product__list .product__section {
-    margin-left: 150px; }
+    margin-left: 10.5042%; }
 
 /* line 12, ../sass/_components.product__list.scss */
 .product__item {
-  width: 200px;
-  font-size: 16px;
+  width: 14.005602240896%;
+  /*200/1428*/
+  font-size: 0.94117647058824em;
+  /*16/17*/
   font-weight: 300;
-  margin-left: 150px;
-  margin-bottom: 115px; }
+  margin-left: 10.504201680672%;
+  /*150/1428*/
+  margin-bottom: 7.1875em;
+  /*115/16*/ }
   /* line 20, ../sass/_components.product__list.scss */
   .product__item:hover .product__thumbnail {
     -ms-transform: scale(1.05);
@@ -834,7 +848,8 @@ header {
   width: 100%;
   position: relative;
   top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
+  /*10/16*/
   -moz-transition: all 0.25s ease-in-out 0s;
   -ms-transition: all 0.25s ease-in-out 0s;
   -webkit-transition: all 0.25s ease-in-out 0s;
@@ -855,12 +870,42 @@ header {
 /* line 60, ../sass/_components.product__list.scss */
 .price--bare {
   text-decoration: line-through;
-  margin-right: 10px; }
+  margin-right: 4%; }
 
 /* line 66, ../sass/_components.product__list.scss */
 .price--sale {
   color: red; }
 
+@media all and (min-width: 601px) and (max-width: 900px) {
+  /* line 73, ../sass/_components.product__list.scss */
+  .product__item {
+    width: 30%; } }
+@media all and (min-width: 1px) and (max-width: 800px) {
+  /* line 82, ../sass/_components.product__list.scss */
+  ul.product__list {
+    margin: 5.88235294117647em auto;
+    float: none; }
+
+  /* line 87, ../sass/_components.product__list.scss */
+  .product__item {
+    width: 30%; } }
+@media all and (min-width: 1px) and (max-width: 600px) {
+  /* line 96, ../sass/_components.product__list.scss */
+  .product__item {
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  /* line 103, ../sass/_components.product__list.scss */
+  .item__title, .product__item p {
+    float: none;
+    position: relative;
+    left: 20%;
+    font-size: 1.1em; }
+
+  /* line 110, ../sass/_components.product__list.scss */
+  .item__title {
+    margin-bottom: 10px; } }
 /* line 1, ../sass/_components.productPicture__list.scss */
 .productpicture__list {
   width: 300px;
@@ -1257,12 +1302,6 @@ p[id="infos__details"]:target, p[id="infos__taille"]:target, p[id="infos__livrai
   -ms-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
-
-/* line 51, ../sass/_components.infos__entretien.scss */
-.product__item {
-  width: 200px;
-  font-size: 16px;
-  font-weight: 300; }
 
 /* line 1, ../sass/_components.shops.scss */
 .shops {
