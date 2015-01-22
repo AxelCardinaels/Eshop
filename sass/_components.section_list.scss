@@ -54,3 +54,19 @@
   padding-top:2.77777777777778em; /*50/18*/
   padding-bottom: 0px;
 }
+
+
+
+@media all and (min-width:1px) and (max-width:800px){
+   
+
+ ul.sections__list{
+  margin-top:0px;
+  font-size:0.8em;
+  background: transparent;
+  position: absolute;
+  top:1em;
+ }
+
+
+}

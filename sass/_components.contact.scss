@@ -1,16 +1,36 @@
 .contact{
-  width:500px;
+  width:29.761904761905%; /*500/1680*/
 
   form{
-    margin-top:100px;
+    margin-top:5.88235294117647em; /*100/17*/
   }
 
   textarea{
-    height:200px;
-  }
+    height:11.76470588235294em;
+}
+
+label{
+	display: block;
+}
 }
 
 
 .fullname{
-  margin-right:50px;
+  margin-right:9%; /*50/500*/
+}
+
+
+
+@media all and (min-width:1px) and (max-width:800px){
+   
+
+ .contact{
+ 	width:80%;
+ 	margin:4em auto;
+ }
+.contact form div textarea{
+  width:100%; /*250/1000*/
+
+}
+
 }
