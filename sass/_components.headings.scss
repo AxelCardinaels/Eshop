@@ -13,7 +13,8 @@
 }
 
 .item__name--small{
-  font-size:20px;
+  font-size:1.17647058823529em; /*20/17*/
+  margin-bottom:0.5em;
 }
 
 .infos__name, .panier__titre, .item__name, .steps__title{
@@ -25,4 +26,20 @@
   font-size: 18px;
   font-weight: 200;
   display:inline-block;
+}
+
+@media all and (min-width:801px) and (max-width:1150px){
+   
+.item__name--small{
+  width:35%;
+}
+
+}
+
+@media all and (min-width:1px) and (max-width:800px){
+   
+.item__name--small{
+  width:100%;
+}
+
 }

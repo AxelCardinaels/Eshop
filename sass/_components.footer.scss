@@ -1,0 +1,15 @@
+.footer{
+	display: block;
+	text-align: center;
+	margin-top:4.70588235294118em; /*80/17*/
+}
+
+.footer__inner{
+	margin:5.88235294117647em 0px; /*100/17*/
+	display: inline-block;
+	min-height:11.76470588235294em; /*200/17*/
+}
+
+.footer__link:hover{
+	text-decoration: underline;
+}

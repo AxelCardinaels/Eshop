@@ -20,6 +20,11 @@
 
     <header>
         <h1><a href="../index.html" title="Accueil du site Woo4Men">Woo4Men</a></h1>
+        <div class="home__burger">
+            <a href="#footer__list" title="afficher le menu" class="burger__link">
+                <img src="../img/burgerblack.png" alt="Afficher le menu" class="burger__icon"/>
+            </a>
+        </div>
     </header>
 
 
@@ -47,7 +52,7 @@
 
         <h2 class="title--centered">Nous laisser un message</h2>
         <form action="contact.html">
-           <div>
+           <div class="clearfix contact__name">
                <div class="fullname push__down__big float--left">
                    <label for="fullname">Votre nom</label>
                    <input name="fullname" id="fullname" type="text" class="input--middle"/>
@@ -68,6 +73,63 @@
 
         </form>
     </div>
+
+
+    <footer class="clearfix wrapper--centered footer footer--in">
+            <h2 class="footer__title">Woo4Men</h2>
+            <div class="footer__inner clearfix">
+                  <ul class="footer__list" id="footer__list">
+                    <li class="footer__item">
+                        <a href="homme.html" class="footer__link" title="Afficher les produits pour hommes">Hommes</a>
+                    </li>
+                     <li class="footer__item">
+                        <a href="#" class="footer__link" title="Afficher les produits pour femmes">Femmes</a>
+                    </li>
+                     <li class="footer__item">
+                        <a href="shop.html" class="footer__link" title="Afficher les points de vente">Points de vente</a>
+                    </li>
+                     <li class="footer__item">
+                        <a href="contact.html" class="footer__link section--selected" title="Afficher la page de contact">Contact</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="panier.html" class="footer__link" title="Visualiser mon panier">Mon panier (<span class="panier__nombre">0</span>)</a>
+                    </li>
+                </ul>
+
+                <div class="footer__social cleafix">
+                    <h3 class="social__title">Suivez-nous</h3>
+                    <ul class="social__list list-inline">
+                        <li class="social__item">
+                            <a href="https://www.facebook.com/Woo4men?fref=ts" title="Vers la page Facebook de Woo4Men" class="social__link">
+                                <img class="social__icon" src="../img/facebook.png" atl="Vers la page Facebook de Woo4Men"/>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://twitter.com/woo4men" title="Vers la page Twitter de Woo4Men" class="social__link">
+                                <img class="social__icon" src="../img/twitter.png" atl="Vers la page Twitter de Woo4Men"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__social footer__cash">
+                    <h3 class="social__title">Nous acceptons</h3>
+                    <ul class="social__list list-inline">
+                        <li class="social__item">
+                            <img class="social__icon" src="../img/master.png" atl="visa"/>
+                        </li>
+                        <li class="social__item">
+                            <img class="social__icon" src="../img/visage.png" atl="MasterCard"/>
+                        </li>
+                        <li class="social__item">
+                            <img class="social__icon" src="../img/paypal.png" atl="Paypal"/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </footer>
 </body>
 
 <script type="text/javascript" src="../js/localstorage.js"></script>

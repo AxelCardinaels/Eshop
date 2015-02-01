@@ -1,0 +1,33 @@
+.footer__list{
+	padding-right:5.852380952381em; /*100/1680*/
+	border-right: 1px solid $grisClair;
+	float:left;
+	height: 100%;
+}
+
+.footer__item{
+	text-align: left;
+	margin-top:1.76470588235294em; /*30/17*/
+
+	&:first-child{
+		margin-top:0px;
+	}
+}
+
+.footer--in{
+	display: none;
+}
+
+@media all and (min-width:1px) and (max-width:800px){
+   
+	.footer__list{
+		margin-left:2em;
+		padding-right:3em;
+
+	}
+
+	.footer--in{
+		display: block;
+	}
+	
+}

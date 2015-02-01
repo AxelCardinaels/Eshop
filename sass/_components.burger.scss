@@ -1,0 +1,22 @@
+.home__burger{
+	height:2em;
+	position: absolute;
+	left:5%;
+	top:2em;
+	display: none;
+}
+
+.burger__link{
+	
+}
+
+.burger__icon{
+	height:100%;
+}
+
+@media all and (min-width:1px) and (max-width:600px){
+	.home__burger{
+		display: block;
+	}
+
+}

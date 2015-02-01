@@ -2,17 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17670",
 "files": {
-	"\/apple-touch-icon-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1226,
-		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
-		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/bower_components\/inuit-block\/_objects.block.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1045,7 +1034,29 @@
 		"outputAbbreviatedPath": "\/img\/asec.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/burger.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 797,
+		"inputAbbreviatedPath": "\/img\/burger.png",
+		"outputAbbreviatedPath": "\/img\/burger.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/burgerblack.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 769,
+		"inputAbbreviatedPath": "\/img\/burgerblack.png",
+		"outputAbbreviatedPath": "\/img\/burgerblack.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/card.png": {
 		"fileType": 32768,
@@ -1056,18 +1067,29 @@
 		"outputAbbreviatedPath": "\/img\/card.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/home.jpg": {
+	"\/img\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 713,
+		"inputAbbreviatedPath": "\/img\/facebook.png",
+		"outputAbbreviatedPath": "\/img\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/home4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 89690,
-		"inputAbbreviatedPath": "\/img\/home.jpg",
-		"outputAbbreviatedPath": "\/img\/home.jpg",
+		"initialSize": 534383,
+		"inputAbbreviatedPath": "\/img\/home4.jpg",
+		"outputAbbreviatedPath": "\/img\/home4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/houx.png": {
 		"fileType": 32768,
@@ -1078,7 +1100,7 @@
 		"outputAbbreviatedPath": "\/img\/houx.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/houx1.png": {
 		"fileType": 32768,
@@ -1089,7 +1111,7 @@
 		"outputAbbreviatedPath": "\/img\/houx1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/houx2.png": {
 		"fileType": 32768,
@@ -1100,7 +1122,62 @@
 		"outputAbbreviatedPath": "\/img\/houx2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/illu1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 344925,
+		"inputAbbreviatedPath": "\/img\/illu1.png",
+		"outputAbbreviatedPath": "\/img\/illu1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/illu2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342560,
+		"inputAbbreviatedPath": "\/img\/illu2.png",
+		"outputAbbreviatedPath": "\/img\/illu2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/illu3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169857,
+		"inputAbbreviatedPath": "\/img\/illu3.png",
+		"outputAbbreviatedPath": "\/img\/illu3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/illu4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357435,
+		"inputAbbreviatedPath": "\/img\/illu4.png",
+		"outputAbbreviatedPath": "\/img\/illu4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/illu5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 368664,
+		"inputAbbreviatedPath": "\/img\/illu5.png",
+		"outputAbbreviatedPath": "\/img\/illu5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/javel.png": {
 		"fileType": 32768,
@@ -1111,7 +1188,7 @@
 		"outputAbbreviatedPath": "\/img\/javel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/large\/chemises\/chemise1a.png": {
 		"fileType": 32768,
@@ -1122,7 +1199,7 @@
 		"outputAbbreviatedPath": "\/img\/large\/chemises\/chemise1a.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/large\/chemises\/chemise1b.png": {
 		"fileType": 32768,
@@ -1144,7 +1221,7 @@
 		"outputAbbreviatedPath": "\/img\/large\/chemises\/chemise1c.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/large\/chemises\/chemise1d.png": {
 		"fileType": 32768,
@@ -1157,6 +1234,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/large\/home3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361005,
+		"inputAbbreviatedPath": "\/img\/large\/home3.png",
+		"outputAbbreviatedPath": "\/img\/large\/home3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/mapcenter.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1166,7 +1254,18 @@
 		"outputAbbreviatedPath": "\/img\/mapcenter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/master.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4361,
+		"inputAbbreviatedPath": "\/img\/master.png",
+		"outputAbbreviatedPath": "\/img\/master.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/netoyage.png": {
 		"fileType": 32768,
@@ -1177,7 +1276,18 @@
 		"outputAbbreviatedPath": "\/img\/netoyage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/paypal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3900,
+		"inputAbbreviatedPath": "\/img\/paypal.png",
+		"outputAbbreviatedPath": "\/img\/paypal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/pointer.png": {
 		"fileType": 32768,
@@ -1188,7 +1298,7 @@
 		"outputAbbreviatedPath": "\/img\/pointer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/question.png": {
 		"fileType": 32768,
@@ -1199,7 +1309,7 @@
 		"outputAbbreviatedPath": "\/img\/question.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/repassage.png": {
 		"fileType": 32768,
@@ -1210,7 +1320,7 @@
 		"outputAbbreviatedPath": "\/img\/repassage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sechage.png": {
 		"fileType": 32768,
@@ -1221,7 +1331,7 @@
 		"outputAbbreviatedPath": "\/img\/sechage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise1.png": {
 		"fileType": 32768,
@@ -1232,7 +1342,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise2.png": {
 		"fileType": 32768,
@@ -1243,7 +1353,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise3.png": {
 		"fileType": 32768,
@@ -1254,7 +1364,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise4.png": {
 		"fileType": 32768,
@@ -1265,7 +1375,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise5.png": {
 		"fileType": 32768,
@@ -1276,7 +1386,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise6.png": {
 		"fileType": 32768,
@@ -1287,7 +1397,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise7.png": {
 		"fileType": 32768,
@@ -1298,7 +1408,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise7.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/chemises\/chemise8.png": {
 		"fileType": 32768,
@@ -1309,7 +1419,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/chemises\/chemise8.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/polos\/polo1.png": {
 		"fileType": 32768,
@@ -1320,7 +1430,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/polos\/polo1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/polos\/polo2.png": {
 		"fileType": 32768,
@@ -1331,7 +1441,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/polos\/polo2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/polos\/polo3.png": {
 		"fileType": 32768,
@@ -1342,7 +1452,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/polos\/polo3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/polos\/polo4.png": {
 		"fileType": 32768,
@@ -1353,7 +1463,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/polos\/polo4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/polos\/polo5.png": {
 		"fileType": 32768,
@@ -1364,7 +1474,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/polos\/polo5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/pulls\/pull1.png": {
 		"fileType": 32768,
@@ -1375,7 +1485,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/pulls\/pull1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/pulls\/pull2.png": {
 		"fileType": 32768,
@@ -1386,7 +1496,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/pulls\/pull2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/pulls\/pull3.png": {
 		"fileType": 32768,
@@ -1397,7 +1507,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/pulls\/pull3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/pulls\/pull4.png": {
 		"fileType": 32768,
@@ -1408,7 +1518,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/pulls\/pull4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/pulls\/pull5.png": {
 		"fileType": 32768,
@@ -1419,7 +1529,7 @@
 		"outputAbbreviatedPath": "\/img\/small\/pulls\/pull5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/small\/pulls\/pull6.png": {
 		"fileType": 32768,
@@ -1430,7 +1540,29 @@
 		"outputAbbreviatedPath": "\/img\/small\/pulls\/pull6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1185,
+		"inputAbbreviatedPath": "\/img\/twitter.png",
+		"outputAbbreviatedPath": "\/img\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/visage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22380,
+		"inputAbbreviatedPath": "\/img\/visage.png",
+		"outputAbbreviatedPath": "\/img\/visage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -1637,6 +1769,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/_components.burger.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_components.burger.scss",
+		"outputAbbreviatedPath": "\/css\/_components.burger.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/_components.checkout.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1669,6 +1817,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/_components.footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_components.footer.scss",
+		"outputAbbreviatedPath": "\/css\/_components.footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_components.footerlist.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_components.footerlist.scss",
+		"outputAbbreviatedPath": "\/css\/_components.footerlist.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/_components.headings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1694,6 +1874,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_components.home__list.scss",
 		"outputAbbreviatedPath": "\/css\/_components.home__list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_components.homeproduct.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_components.homeproduct.scss",
+		"outputAbbreviatedPath": "\/css\/_components.homeproduct.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1861,6 +2057,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/_components.social.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_components.social.scss",
+		"outputAbbreviatedPath": "\/css\/_components.social.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/_components.validation__steps.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1950,6 +2162,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_object.wrapper.scss",
 		"outputAbbreviatedPath": "\/css\/_object.wrapper.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_objects.homeillu.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_objects.homeillu.scss",
+		"outputAbbreviatedPath": "\/css\/_objects.homeillu.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

@@ -1,12 +1,17 @@
 .home__list{
   font-size:20px;
-   margin-left:3.859398496241%; /*60/1596*/
+   padding:0.8em 2%; /*60/1596*/
+   text-shadow:1px 1px 6px rgba(1,1,1,0.7);
+   position: relative;
+   top:-1.5em;
+
+   @include transition_css(all,0.3s,ease-in-out,0s);
 
 
   a{
     color:$grisFonce;
     text-decoration: none;
-    color:black;
+    color:white;
     font-weight: 400;
 
     &:hover{
@@ -14,13 +19,13 @@
     }
 
     &:visited{
-      color:black;
+      color:white;
     }
   }
 }
 
 .home__item{
-  margin-left:2em; /*40/20*/
+  margin-left:2.5em; /*40/20*/
 
   &:first-child{
     margin-left:0px;
@@ -28,24 +33,28 @@
 }
 
 
+
 @media all and (min-width:1px) and (max-width:800px){
    
   ul.home__list{
     text-align: center;
     width:100%;
+    display: block;
   }
 
 }
 
 
 @media all and (min-width:1px) and (max-width:600px){
-   
-   li.home__item{
-    display: block;
-    text-align: center;
-    margin:20px 0px;
 
-   }
+  ul[id="home__list"]{
+
+       display: none;
+
+
+
+  }
+
   
 
 }

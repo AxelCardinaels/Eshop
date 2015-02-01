@@ -1,7 +1,8 @@
-h1{
+h1, .footer__title{
   font-size:35px;
   font-family: Helvetica;
   font-weight: 600;
+  color:black;
 }
 
 h2{
@@ -13,11 +14,39 @@ h3{
   font-size: 25px;
 }
 
+.home .home__title{
+  position: relative;
+  top:50%;
+  color: white;
+  font-size: 50px;
+  text-shadow:1px 1px 8px rgba(1,1,1,0.4);
+}
+
+.illu__title{
+  font-size:20px;
+  color:white;
+}
+
+.home__title{
+  text-align: center;
+}
+
+.illu__title--large{
+  color:white;
+  font-size: 30px;
+}
+
+.social__title{
+  font-size:20px;
+  text-align: center;
+}
+
+
+
+
 @media all and (min-width:1px) and (max-width:800px){
    
 	h1.home__title{
-		float:none;
-		text-align: center;
 		width:100%;
 	}
 

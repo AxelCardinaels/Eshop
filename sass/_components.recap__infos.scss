@@ -1,3 +1,24 @@
 .recap__infos{
-  margin-top:100px;
+  margin-top:5.88235294117647em; /*100/17*/
+}
+
+@media all and (min-width:801px) and (max-width:1150px){
+
+.recap__infos{
+	width:80%;
+	float: none;
+	margin:4em auto;
+}
+
+}
+
+@media all and (min-width:1px) and (max-width:800px){
+   
+.recap__infos{
+	width:80%;
+	float: none;
+	margin:4em auto;
+}
+
+
 }

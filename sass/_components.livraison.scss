@@ -1,13 +1,10 @@
 .livraison__infos{
-  width:900px;
+  width:53.571428571429%; /*900/1680*/
 
 
 
 }
 
-.card__infos{
-  width:360px;
-}
 
 .card__infos, .livraison__infos, .contact{
 
@@ -46,13 +43,13 @@
 
 .select--down{
   position:relative;
-  top:27px;
+  top:1.58823529411765em;
 }
 
 
 .livraison__infos, .card__infos, .login, .login--without, .contact{
-  margin-top:100px;
-  margin-bottom:150px;
+  margin-top:5.88235294117647em; /*100/17*/
+  margin-bottom:8.82352941176471em;
 
   label{
     margin-bottom:10px;
@@ -61,4 +58,58 @@
   input[type="text"], input[type="password"], textarea{
     padding:5px 0px 5px 10px;
   }
+}
+
+
+@media all and (min-width:1001px) and (max-width:1300px){
+ 
+  .livraison__infos{
+  width:40%; /*900/1680*/
+}
+
+}
+
+
+@media all and (min-width:601px) and (max-width:1000px){
+ 
+  .livraison__infos{
+  width:60%; /*900/1680*/
+}
+
+}
+
+@media all and (min-width:1px) and (max-width:600px){
+ 
+  .livraison__infos{
+  width:80%; /*900/1680*/
+}
+
+}
+
+
+
+@media all and (min-width:1px) and (max-width:1300px){
+ 
+  .livraison__infos{
+  margin:4em auto;
+
+  div{
+    float: none;
+    margin:0px 0px 1em;
+  }
+
+  .input--small, .input--middle, .input--large{
+    width: 100%;
+  }
+
+}
+
+
+.select--down{
+  position:relative;
+  top:0em;
+}
+
+
+
 }

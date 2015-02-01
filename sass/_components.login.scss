@@ -1,16 +1,16 @@
 .login{
-  width:1000px;
+  width:59.52380952381%; /*1000/1680*/
   text-align: center;
   margin:0px auto 0px;
 
   form{
-    margin-bottom:60px;
+    margin-bottom:3.52941176470588em; /*60/17*/
   }
 
   input{
     display:block;
-    width:340px;
-     margin:0px auto 30px;
+    width:75%;
+    margin:0px auto 1.76470588235294em; /*30/17*/
   }
 }
 
@@ -20,4 +20,27 @@
 
 .login__account{
   border-right:1px solid #CACACA;
+}
+
+
+@media all and (min-width:1px) and (max-width:1100px){
+ 
+.login__without, .login__account{
+  width:80%;
+  float:none;
+  margin:0px auto;
+}
+
+.login__account{
+  border: none;
+  margin-bottom:5em;
+}
+
+.login{
+  width:100%;
+  input{
+    width:100%;
+  }
+}
+
 }
